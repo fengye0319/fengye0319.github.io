@@ -1,0 +1,318 @@
+* {
+    font-size: 20px;
+    font-family: "微软雅黑";
+    margin: 0 0;
+    padding: 0 0;
+}
+
+a {
+    color: #333;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    text-decoration: underline;
+    text-decoration: none;
+}
+
+
+li,
+ol,
+ul {
+    list-style: none outside none;
+}
+
+#index_header {
+    height: 660px;
+    background: url('../images/bannar-min-01.png') 0px 0px round;
+}
+
+#index_header nav {
+    height: 40px;
+}
+
+/*  */
+
+#navdiv {
+    height: 40px;
+    background-color: #EA6200;
+}
+
+#navdiv nav,
+#index_header nav {
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 40px;
+    color: #fff;
+}
+
+#navdiv nav ul,
+#index_header nav ul {
+    height: 40px;
+    margin: 0 auto;
+    max-width: 860px;
+    line-height: 40px;
+}
+
+#navdiv nav ul li,
+#index_header nav ul li {
+    text-align: center;
+    float: left;
+    width: 140px;
+}
+
+li a {
+    margin: 0 auto;
+    width: 80px;
+    display: block;
+    color: #fff;
+    position: relative;
+}
+
+li a:hover {
+    color: #FFA253;
+}
+
+.display {
+    display: none;
+}
+
+li a:before,
+li a:after {
+    content: "";
+    width: 0;
+    height: 4px;
+    background: #FFA253;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transition: all .5s;
+}
+
+li a:hover:before {
+    left: 0%;
+    width: 50%;
+}
+
+li a:hover:after {
+    left: 50%;
+    width: 50%;
+}
+
+
+li .open {
+    color: #FFA253;
+}
+
+li .open span {
+    padding-bottom: 3px;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: #FFA253;
+}
+
+#demo_main {
+    min-height: 750px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 58px;
+}
+
+.top {
+    color: #ffa354;
+}
+
+.m_top70 {
+    margin-top: 70px;
+}
+
+#left_aside {
+    float: left;
+    width: 300px;
+    height: 400px;
+    background-image: url('../images/left_background.png');
+}
+
+#left_aside p {
+    padding: 10px 0 10px 55px;
+}
+
+.qita {
+    float: right;
+    width: 750px;
+    padding-left: 150px;
+}
+#right_content {
+    float: right;
+    width: 836px;
+    padding-left: 64px;
+}
+
+/*  */
+
+.bd-top {
+    margin-top: 103px;
+    width: 100%;
+    border-top: 1px solid black;
+}
+
+#ui_demo {
+    width: 1200px;
+    height: 754px;
+    background: url('../images/ui-background.png') 0px -40px;
+    margin: 0 auto;
+}
+
+h2 {
+    background: url('../images/ui-background.png') -10px 0px;
+    border: 1px solid black;
+    display: inline;
+    font-size: 50px;
+    color: #333;
+    padding: 10px 15px;
+    position: relative;
+    left: 507px;
+    top: -30px;
+}
+
+#app1 {
+    padding-left: 216px;
+    width: 384px;
+    float: left;
+}
+
+#app2 {
+    padding-left: 102px;
+    width: 498px;
+    float: right;
+}
+
+.blur3 {
+    -webkit-filter: blur(3px);
+    /* Chrome, Opera */
+    -moz-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+}
+
+.span_text {
+    padding-top: 15px;
+    float: left;
+}
+
+.span1 {
+    padding-left: 300px;
+}
+
+.span2 {
+    padding-left: 400px;
+}
+
+/*  */
+
+#ds_demo {
+    width: 1200px;
+    height: 1197px;
+    background: url('../images/dianshangdi.png') 0px 0px;
+    margin: 0 auto;
+}
+
+.diangshang {
+    padding: 10px 102px;
+}
+
+#wenyi {
+    padding: 15px 102px 10px 102px
+}
+
+/*  */
+
+#pm_demo {
+    width: 1200px;
+    height: 1282px;
+    background: url('../images/pingmiandi.png') 0px 0px;
+    margin: 0 auto;
+}
+
+.xiabu {
+    padding-top: 22px
+}
+
+#beiai {
+    padding: 30px 0 0 102px;
+}
+
+#pm_demo span {
+    float: right;
+    padding: 269px 102px 0 0;
+}
+
+#shiguang {
+    float: right;
+    padding: 30px 400px 0 0;
+    color: #333 ;
+}
+
+#haibao {
+    padding-left: 102px;
+    width: 360px;
+    float: left;
+}
+
+#bus {
+    padding: 24px 102px 0 0;
+    width: 599px;
+    float: right;
+}
+
+/*  */
+
+#qt_demo {
+    width: 1200px;
+    height: 1880px;
+    background: url('../images/qitadi.png') 0 -50px;
+    margin: 0 auto;
+}
+
+.qt_shang {
+    width: 996px;
+    margin-left: 102px;
+    margin-top: 20px;
+}
+
+.qt_xia {
+    margin-top: 65px;
+}
+
+.you {
+    float: right
+}
+
+.qt_wenzi {
+    padding-top: 15px;
+    float: left;
+}
+
+#yxt_wenzi {
+    padding-left: 140px;
+}
+
+#h5_wenzi {
+   padding-left: 430px;
+}
+
+#gf_wenzi {
+    padding-left: 160px;
+}
+
+#icon_wenzi {
+    padding-left: 450px;
+}
+section div span{
+    color: #666;
+}
