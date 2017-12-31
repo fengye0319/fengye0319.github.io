@@ -4,6 +4,7 @@
 <head>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>首页</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -12,6 +13,11 @@
 <body>
     <!-- 导航 -->
     <header id="index_header">
+        <ul id="backImg">
+            <li><img src="images/bannar-min-01.png" alt="轮播_1"></li>
+            <li><img src="images/bannar-min-02.png" alt="轮播_1"></li>
+        </ul>
+
         <nav>
             <ul>
                 <li><a href="index.html" class="open"><span>首页</span></a></li>
@@ -21,9 +27,12 @@
                 <li><a href="axure.html">其他作品</a></li>
                 <li><a href="guanyuwo.html">关于我</a></li>
             </ul>
+
         </nav>
+
     </header>
     <!-- 导航结束 -->
+
     <h1 class="display">首页-UI全作品</h1>
     <!-- UI作品 -->
     <div class="bd-top">
@@ -50,13 +59,13 @@
     <section id="ds_demo">
         <h2>电商作品</h2>
         <div id="wenyi">
-            <img src="images/wenyi.png" alt="文艺">
+            <img src="images/wenyi.png" alt="文艺" class="blur3" onmouseover="mOver(this)" onmouseout="mOut(this)">
         </div>
         <div class="diangshang">
-            <img src="images/shangwu.png" alt="商务">
+            <img src="images/shangwu.png" alt="商务" class="blur3" onmouseover="mOver(this)" onmouseout="mOut(this)">
         </div>
         <div class="diangshang">
-            <img src="images/zhongqiu.png" alt="中秋">
+            <img src="images/zhongqiu.png" alt="中秋" class="blur3" onmouseover="mOver(this)" onmouseout="mOut(this)">
         </div>
     </section>
     <!-- end 电商作品 -->
@@ -66,12 +75,12 @@
     <section id="pm_demo">
         <h2>平面作品</h2>
         <div id="beiai">
-            <img src="images/beiai.png" alt="北爱">
+            <img src="images/beiai.png" alt="北爱" class="blur3" onmouseover="mOver(this)" onmouseout="mOut(this)">
             <span>&Omicron;&nbsp;北爱视觉VI</span>
         </div>
         <div class="xiabu">
-            <img src="images/haibao.png" id="haibao" alt="海报">
-            <img src="images/bus.png" id="bus" alt="站台">
+            <img src="images/haibao.png" id="haibao" alt="海报" class="blur3" onmouseover="mOver(this)" onmouseout="mOut(this)">
+            <img src="images/bus.png" id="bus" alt="站台" class="blur3" onmouseover="mOver(this)" onmouseout="mOut(this)">
         </div>
         <text id="shiguang">&Omicron;&nbsp;时光印象咖啡厅</text>
     </section>
@@ -82,15 +91,15 @@
     <section id="qt_demo">
         <h2>其他作品</h2>
         <div class="qt_shang">
-            <div><img src="images/yuanxingtu.png" alt="Axure制作原型图">
-                <img src="images/h5.png" class="you" alt="h5动态页面"></div>
+            <div><img src="images/yuanxingtu.png" alt="Axure制作原型图" class="blur3" onmouseover="mOver(this)" onmouseout="mOut(this)">
+                <img src="images/h5.png" alt="h5动态页面" class="blur3" onmouseover="mOver(this)" onmouseout="mOut(this)" id="html5"></div>
             <div class="qt_wenzi">
                 <span id="yxt_wenzi">Axure制作原型图</span>
                 <span id="h5_wenzi">h5动态页面</span>
             </div>
             <div class="qt_xia">
-                <img src="images/guifang.png" alt="制定ios规范">
-                <img src="images/icon.png" class="you" alt="图标绘制">
+                <img src="images/guifang.png" alt="制定ios规范" class="blur3" onmouseover="mOver(this)" onmouseout="mOut(this)">
+                <img src="images/icon.png" alt="图标绘制" class="blur3" onmouseover="mOver(this)" onmouseout="mOut(this)" id="ico">
             </div>
             <div class="qt_wenzi">
                 <span id="gf_wenzi">制定ios规范</span>
@@ -100,6 +109,7 @@
     </section>
     <!-- end 其他作品 -->
 </body>
+<script src="http://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
 <script src="js/main.js" type="text/javascript"></script>
 
 </html>

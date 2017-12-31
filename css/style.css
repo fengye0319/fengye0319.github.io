@@ -28,12 +28,31 @@ ul {
 }
 
 #index_header {
+    min-width: 2030px;
     height: 660px;
-    background: url('../images/bannar-min-01.png') 0px 0px round;
+    overflow:hidden;
+    position: relative;
 }
 
 #index_header nav {
+    min-width: 1200px;
     height: 40px;
+}
+
+#index_header ul{
+    position: absolute;
+    overflow-y: auto;
+    width: 2030px;
+}
+
+#index_header  li{
+    width: 100%;
+    float: left;
+}
+
+#index_header  li img{
+    float: left;
+    width: 100%;
 }
 
 /*  */
@@ -289,7 +308,7 @@ h2 {
     margin-top: 65px;
 }
 
-.you {
+#ico,#html5 {
     float: right
 }
 
@@ -316,3 +335,4 @@ h2 {
 section div span{
     color: #666;
 }
+
