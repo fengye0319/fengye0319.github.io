@@ -1,6 +1,6 @@
 * {
     font-size: 20px;
-    font-family: "微软雅黑";
+    font-family: "微软雅黑, Hind, sans-serif";
     margin: 0 0;
     padding: 0 0;
 }
@@ -28,13 +28,19 @@ ul {
 }
 
 .background01{
-    background: url(../images/bannar-min-01.png) no-repeat fixed top;
+    background: url(../images/bannar-min-01.png);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
     background-size:100% 660px;
+    background-origin:content-box;
 }
 
 .background02{
-    background: url(../images/bannar-min-02.png) no-repeat fixed top;
+    background: url(../images/bannar-min-02.png);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
     background-size:100% 660px;
+    background-origin:content-box;
 }
 
 #index_header {
@@ -117,6 +123,7 @@ li a:after {
     position: absolute;
     top: 90%;
     left: 50%;
+    -webkit-transition: all .5s;
     transition: all .5s;
 }
 

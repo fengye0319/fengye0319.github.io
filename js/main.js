@@ -23,4 +23,4 @@ function forHeaderBackImg() {
         }, 2500);
     }
 }
-setInterval("forHeaderBackImg()", 6000);
+setInterval("forHeaderBackImg()", 8000);
