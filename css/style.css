@@ -29,12 +29,12 @@ ul {
 
 .background01{
     background: url(../images/bannar-min-01.png) no-repeat fixed top;
-    background-size:100% 100%;
+    background-size:100% 660px;
 }
 
 .background02{
     background: url(../images/bannar-min-02.png) no-repeat fixed top;
-    background-size:100% 100%;
+    background-size:100% 660px;
 }
 
 #index_header {
