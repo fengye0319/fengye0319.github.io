@@ -27,32 +27,39 @@ ul {
     list-style: none outside none;
 }
 
+.background01{
+    background: url(../images/bannar-min-01.png) no-repeat fixed top;
+    background-size:100% 100%;
+}
+
+.background02{
+    background: url(../images/bannar-min-02.png) no-repeat fixed top;
+    background-size:100% 100%;
+}
+
 #index_header {
-    min-width: 2030px;
+    width: 100%;
     height: 660px;
     overflow:hidden;
-    position: relative;
+    position: static;
 }
 
 #index_header nav {
-    min-width: 1200px;
+    width: 100%;
     height: 40px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:1;
 }
 
-#index_header ul{
-    position: absolute;
-    overflow-y: auto;
-    width: 2030px;
-}
-
-#index_header  li{
+#index_header > ul{
     width: 100%;
-    float: left;
 }
 
-#index_header  li img{
-    float: left;
+#index_header li{
     width: 100%;
+    height: 660px;
 }
 
 /*  */
@@ -65,7 +72,7 @@ ul {
 #navdiv nav,
 #index_header nav {
     margin: 0 auto;
-    max-width: 1200px;
+    width: 100%;
     height: 40px;
     color: #fff;
 }

@@ -10,19 +10,17 @@ function mOut(obj) {
 
 function forHeaderBackImg() {
     var _backImgObj = $("#backImg");
-    _backImgObj.animate({
-        marginTop: "-710px"
-    }, 2000);
+
     if (_top == null) {
         _top = true;
         _backImgObj.animate({
-            marginTop: "-710px"
-        }, 2000);
+            marginTop: "-660px"
+        }, 2500);
     } else {
         _top = null;
         _backImgObj.animate({
             marginTop: "0px"
-        }, 2000);
+        }, 2500);
     }
 }
 setInterval("forHeaderBackImg()", 6000);
